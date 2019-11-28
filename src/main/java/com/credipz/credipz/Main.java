@@ -9,15 +9,15 @@ package com.credipz.credipz;
  *
  * @author zamora
  */
+import com.credipz.credipz.dominio.Prestamo;
 public class Main {
-    
-
-    /**
-     * @param args the command line arguments
-     */
     public static void main(String[] args) {
-        System.out.println("HOLA mundo...******");
-        // TODO code application logic here
+        //System.out.println("HOLA mundo...******");
+      Prestamo prestamo1 = new Prestamo();
+      prestamo1.cantidadCuotas = 12;
+      prestamo1.monto = 10000.50;
+      prestamo1.plazoEnMeses = 24;
+      prestamo1.tasa = 0.10;  
     }
     
 }
